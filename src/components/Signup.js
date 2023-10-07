@@ -125,8 +125,8 @@ const Signup = () => {
 
       </div>
       <div className='submit-container'>
-        <div className='submit'>
-          <button  onClick={(e)=>handleSubmit(e)}>Sign Up</button>
+        <div >
+          <button className='submit' onClick={(e)=>handleSubmit(e)}>Sign Up</button>
         </div>
       </div>
     </div>
