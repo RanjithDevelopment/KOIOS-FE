@@ -17,6 +17,11 @@
     margin-top: 30px;
     
 }
+h1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
 .text{
 color: #3c009d;
 font-size: 50px;
@@ -76,5 +81,19 @@ span{
     border-radius: 50px;
     font-size: 19px;
     font-weight:  700;
+    cursor: pointer;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220pt;
+    height: 59px;
+    color: #fff;
+    background: black;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight:  700;
+    text-decoration: none;
     cursor: pointer;
 }

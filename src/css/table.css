@@ -1,0 +1,38 @@
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    height: 130vh;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+table {
+  
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr{background-color: #f2f2f2}
+  
+  th {
+    background-color: black;
+    color: white;
+  }
+
+  .edit , .delete{
+    display: flex;
+    justify-content: space-around;
+    margin: 2px;
+    padding: 3px;
+    background: violet;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
